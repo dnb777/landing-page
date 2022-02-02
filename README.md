@@ -1,0 +1,1 @@
+Project from The Odin Project curriculum. In this project i'll create a landing page using what's been learned about flexbox.
