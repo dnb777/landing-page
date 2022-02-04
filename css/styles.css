@@ -2,6 +2,7 @@
 	--darkblue: #1F2937;
 	--font-primary: #F9FAF8;
 	--font-secondary: #E5E7EB;
+	--blue: #3882F6;
 	--font: 'Roboto', sans-serif;;
 }
 html {
@@ -15,7 +16,7 @@ html {
 body {
 	min-height: 100vh;
 	font-family: var(--font);
-	font-size: 12px;
+	font-size: 14px;
 }
 
 a {
@@ -79,27 +80,40 @@ ul {
 	color: var(--font-secondary);
 	margin: 0 0 10px 0;
 }
+.button {
+	background-color: var(--blue);
+	font-weight: 700;
+	color: var(--font-primary);
+	border-radius: 5px;
+	padding: 5px 25px;
+	border-style: none;
+}
+.button:hover {
+	cursor: pointer;
+}
 /*INFO*/
 .information {
 	display: flex;
 	flex-direction: column;
+	margin: 50px auto;
 }
 .info-title {
 	text-align: center;
 	font-size: 32px;
 	font-weight: 900;
 	color: var(--backgroung);
+	margin-bottom: 50px;
 }
 
 .cards {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
 	justify-content: center;
-	gap: 16px;
+	gap: 20px;
 
 }
 .card {
+	flex: 0;
 }
 .card img{
 	height: 250px;
@@ -110,4 +124,54 @@ ul {
 	text-align: center;
 	color:  var(--darkblue);
 	flex: 0;
+}
+
+/*QUOTE*/
+.quote {
+	background-color: var(--font-secondary);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 100px auto;
+	padding: 30px;
+}
+.quote-text {
+	max-width: 600px;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 300;
+	color: var(--darkblue);
+}
+.quote-signature {
+	display: block;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	color: var(--darkblue);
+	text-align: right;
+	padding-top: 30px;
+}
+
+/*SING-UP*/
+.sing-up {
+	background-color: var(--blue);
+	max-width: 900px;
+	margin:  100px auto;
+	padding: 20px 100px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+}
+.message h3, p {
+	color: var(--font-secondary);
+	margin: 0;
+}
+.message h3 {
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+.button-2 {
+	border: 2px solid var(--font-primary);
 }
