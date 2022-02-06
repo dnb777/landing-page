@@ -11,73 +11,75 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	
-	<div class="container">
-		<div class="hero">
+	<div class="contenedor">
+		<div class="wrapper">
 			<header class="header">
-				<div class="header-logo">Header Logo</div>
-				<div class="links">
-					<ul>
-						<li><a href="#">header link one</a></li>
-						<li><a href="#">header link two</a></li>
-						<li><a href="#">header link three</a></li>
+				<div class="nav">
+					<div class="logo">Header Logo</div>
+					<ul class="links">
+						<li><a href="#">Link one</a></li>
+						<li><a href="#">Link two</a></li>
+						<li><a href="#">Link three</a></li>
 					</ul>
 				</div>
-			</header>
 
-			<main class="main">
-				<div class="main-text">
-					<h1 class="title">This website is awesome</h1>
-					<p class="para">But not as awesome as Dean Martin.</p>
-					<input type="button" class="button" value="Sing Up">
+				<div class="hero">
+					<div class="hero-text">
+						<h1 class="hero-title">This website is <br>Awesome</br></h1>
+						<p class="hero-para">Bust nos as awesome as Dean Martin</p>
+						<button class="button">Sing Up</button>
+					</div>
+					<div class="hero-image">
+						<img src="images/dean.jpg" alt="Dean Martin" class="image">
+					</div>
 				</div>
-				<img src="images/dean.jpg" alt="Cool Dean Martin photo">
-			</main>
+			</header>
+		</div>
+
+		<div class="wrapper">
+			<div class="pictures">
+				<h2 class="pictures-title">Some random pictures</h2>
+				<div class="pictures-wrapper">
+					<div class="pic">
+						<img src="images/dean-beer.jpg" alt="Dean holding a beer">
+						<p>Dean holding a beer.</p>
+					</div>
+					<div class="pic">
+						<img src="images/dean-redsuit.jpg" alt="dean martin">
+						<p>Dean wearing a cool red suit.</p>
+					</div>
+					<div class="pic">
+						<img src="images/dean-sinatra.jpg" alt="Dean and Frank Sinatra">
+						<p>Dean and Frank. Can it get any better?</p>
+					</div>
+					<div class="pic">
+						<img src="images/dean-puppy.png" alt="Dean with a puppy">
+						<p>Dino holding a cute puppy on his show.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper quote">
+			<blockquote class="quote-text">
+				“I want to be remembered as a damn good entertainer, nothing spectacular. A good entertainer who made people enjoy themselves and made them laugh a little. I want them to think 'He was a nice guy. He did pretty good and we loved him.'"
+				<cite class="quote-signature">-Dean Martin, the king of cool.</cite>
+			</blockquote>
+		</div>
+
+		<div class="wrapper">
+			<div class="subscribe">
+				<div class="subscribe-message">
+					<h3>Subscribe to our newsletter</h3>
+					<p>Hit the subscribe button and receive annoying emails every week!</p>
+				</div>
+				<button class="button">Subscribe</button>
+			</div>
+		</div>
+
+		<div class="wrapper footer">
+			<p class="footer-text"><a href="https://github.com/dnb777">dnb777</a> for <a href="https://www.theodinproject.com/">The Odin Project</a> &copy 2022</p>
 		</div>
 	</div>
-
-	<section class="information">
-		<h2 class="info-title">Some Random Pictures</h2>
-		<div class="cards">
-			<div class="card">
-				<img src="images/dean-beer.jpg" alt="dean martin drinking beer">
-				<p>Dean drinking beer.</p>
-			</div>
-			<div class="card">
-				<img src="images/dean-redsuit.jpg" alt="dean martin with a red suit">
-				<p>Dean  wearing a cool red suit</p>
-			</div>
-			<div class="card">
-				<img src="images/dean-sinatra.jpg" alt="Dean Martin and Frank Sinatra">
-				<p>Dino and Fran.</p>
-			</div>
-			<div class="card">
-				<img src="images/dean-puppy.png" alt="Dean Martin holding a puppy">
-				<p>Dino holding a cute puppy on his show.</p>
-			</div>
-		</div>
-	</section>
-
-	<section class="quote">
-		<blockquote class="quote-text">
-		“I want to be remembered as a damn good entertainer, nothing spectacular. A good entertainer who made people enjoy themselves and made them laugh a little. I want them to think 'He was a nice guy. He did pretty good and we loved him.'"
-		<cite class="quote-signature">-Dean Martin, the king of cool.</cite>
-		</blockquote>
-	</section>
-
-	<section class="sing-up">
-		<div class="message">
-			<h3>Call to action! it's time!</h3>
-			<p>Sing up to ours newsletter by clicking that button over there and you will recive annoying mails for a while!</p>
-		</div>
-		<div class="button-container">
-			<input type="button" class="button button-2" value="Sing Up">
-		</div>
-	</section>
-
-	<footer class="footer">
-		<p class="footer-text">dnb777 for The Odin Project</p>
-	</footer>
-
 </body>
 </html>
