@@ -22,8 +22,43 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul {
     list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: var(--dark-background);
+}
+.nav,
+.hero {
+    margin: 0 100px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.logo {
+    color: var(--main-text);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.enlaces ul{
+    display: flex;
+    gap: 8px;
+}
+
+.enlaces a {
+    color: var(--secondary-text);
+    font-size: 18px;
 }
