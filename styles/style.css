@@ -33,6 +33,18 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+button {
+    cursor: pointer;
+    border: none;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: var(--main-text);
+    background-color: var(--btn-color);
+    padding: 5px 10px;
+}
 .container {
     display: flex;
     flex-direction: column;
