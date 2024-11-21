@@ -70,6 +70,7 @@ img {
 .hero {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     padding: 50px 0;
 }
 
@@ -127,3 +128,4 @@ img {
     color: var(--frase-texto);
     padding: 5px;
 }
+
