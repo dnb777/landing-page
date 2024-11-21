@@ -1,3 +1,13 @@
+:root {
+    --dark-background: #1F2937;
+    --main-text: #F9FAF8;
+    --secondary-text: #E5E7EB;
+    --btn-color: #3882F6;
+    --info-main: #1F2937;
+    --frase-background: #E5E7EB;
+    --frase-texto: #1F2937;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
