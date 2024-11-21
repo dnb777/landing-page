@@ -159,3 +159,29 @@ button {
     text-align: end;
     font-weight: 700;
 }
+
+.registro {
+    min-width: 60%;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: var(--btn-color);
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 40px 80px;
+}
+
+.registro-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--main-text);
+}
+
+.registro-contenido p {
+    font-size: 14px;
+    color: var(--secondary-text);
+}
+
+.registro .btn {
+    border: 1px solid #FFF;
+}
